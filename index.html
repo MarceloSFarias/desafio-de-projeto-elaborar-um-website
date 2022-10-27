@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio HTML</title>
+</head>
+<body>
+    <h1>Introdução ao HTML na Prática</h1>
+
+    <hr />
+    <h2>Diogo Medeiros Mainardes​</h2>
+    <p>Desenvolvedor Sênior / Tech Lead​</p>
+
+    <h2 id="Índice">Índice</h2>
+    <p><strong><u>Aprendendo HTML na prática:</u> </strong></p>
+    <ul>
+        <li><a href="#Estrutura" style="text-decoration:none">Estrutura básica do HTML</a></li>
+        <li><a href="#Tags"  style="text-decoration:none">Falando sobre  <i>Tags</i> e seus <i>atributos</i></a></li>
+        <li><a href="#textos" style="text-decoration:none">Falando sobre textos </a></li>
+        <li><a href="#listas" style="text-decoration:none">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#Links" style="text-decoration:none">Falando sobre Links</a></li>
+        <li><a href="#Artigo" style="text-decoration:none">Trecho de artigo formatado utilizando tags</a></li>
+        <li><a href="#referências" style="text-decoration:none">Links de referências</a></li>
+    </ul>
+
+    <h2 id="Estrutura">Estrutura básica do HTML</h2>
+    <p>Para um HTML válido precisa ser composto estruturalmente pelas tags <strong><i>html</i></strong> - é inserida antes de começar a introduzir todas as demais tags -,<strong><i>head</i></strong> - (cabeça) contém as informações da documentação HTML que será utilizada pelo navegador e pelos serviços da Web - e <strong>body<i></i></strong> - (corpo) responsável pela parte visual que será entregue para o usuário interagir com a Web -</p>
+    <p><u>Imagem de exemplo da estrutura básica:</u></p>
+    <p><img src="data:image/png;base64,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"></p>
+    <p><i>Material de apoio: <a href="https://www.devmedia.com.br/html-basico-codigos-html/16596" title="Clique para acessar" target="_blank">www.devmedia.com.br/html-basico-codigos-html/16596</a></i></p>
+    <p><a href="#Índice"  style="color: rgb(255, 30, 0)"><strong>Índice</strong></a></p>
+
+    <h2 id="Tags">Falando sobre  <i>Tags</i> e seus atributos</h2>
+    <p>As tags HTML, elas informam ao navegador qual a estrutura que está sendo construída, sendo do tipo parágrafos, títulos, links, imagens, etc.
+        Possuem estrutura própria, são iniciadas através do sinal “menor que”, seguido do nome do elemento e finalizando como sinal “maior que”. Algumas tags fecham sozinhas (self-closing) e outras não e sendo necessário fechamento com uma barra (/).
+        Como vimos temos a tag <strong><i>i</i></strong> que formata o testo como <u><i>itálico</i></u>, outra tag é a <strong><i>strong</i></strong> que faz a formatação com <u><i>negrito</i></u>  é a <strong><i>strong</i></strong> e vimos tambem dois exemplos de tags sem fechamento que não precisam da / para serem finalizadas que seriam o caso da <u><i>input</i></u> e da <u><i>img</i></u>.</p>
+    <p>Atributos nada mais são que  propriedades que uma tag pode possuir. Existem atributos que são mais gerais e outros que são específicos. Podemos exemplificar o <i>strong</i> que pode possuir o atributo <strongi>id</strong> para sua identificação para ser acessado, por exemplo, pelo javascripit, tal atributo pode é considerado genérico por ser utilizado por outras tags. Outro que podemos citar é o <i>input</i> em que um de seus atributos é <i>type</i> exclusivo para seu uso e que pode ser alterado o valor de sua propriedade.</p>
+    <p><i>Material de apoio: <a href="https://www.homehost.com.br/blog/tutoriais/tags-html/" title="Clique para acessar" target="_blank">www.homehost.com.br/blog/tutoriais/tags-html/</a></i></p>
+    <p><a href="#Índice"  style="color: rgb(255, 30, 0)"><strong>Índice</strong></a></p>
+
+    <h2 id="textos">Falando sobre textos</h2>
+    <p>Abordaremos sobre textos ou tipografia que é utilizado na formatação para uma melhor experiência do usuário. Devido à abundância de tags para tal finalidade mencionaremos alguns para entendimento.</p>
+    <p>As <strong>heading</strong> tags podem ser utilizadas de 1 a 6 (do h1 ao h6). A tag h1 possui o mais ato nível vinculada ao título principal, tags h2 são atribuídas nos subtítulos e assim por diante te chegar a tag h6 a de mais baixo nível.</p>
+    <p>Exemplo para utilização das <strong>heading</strong>:</p>
+    <ul>
+        <li>h1:<h1>Ola mundo! Hellow world! Hola mundo</h1></li>
+        <li>h2:<h2>Ola mundo! Hellow world! Hola mundo</h2></li>
+        <li>h3:<h3>Ola mundo! Hellow world! Hola mundo</h3></li>
+        <li>h4:<h4>Ola mundo! Hellow world! Hola mundo</h4></li>
+        <li>h5:<h5>Ola mundo! Hellow world! Hola mundo</h5></li>
+        <li>h6:<h6>Ola mundo! Hellow world! Hola mundo</h6></li>
+    </ul>
+    <p></p>
+    <p><i>Material de apoio: <a href="https://www.w3schools.com/TAGS/default.asp" title="Clique para acessar" target="_blank">www.w3schools.com/TAGS/default.asp</a></i></p>
+    <p><a href="#Índice"  style="color: rgb(255, 30, 0)"><strong>Índice</strong></a></p>
+
+    <h2 id="Links">Falando sobre Links</h2>
+    <p>Os links são definidos pela tag <strong>a</strong> que significa âncora sendo utilizada para fazer o direcionamento desejado. Para exemplificarmos, neta pagina Web exitem vários links utilizando âncoras que direcionam a sites externos e até mesmo navegações internas da página.</p>
+    <p>Logo abaixo no material de apoio é utilizado um link que direciona a página da DevMidia. </p>
+    <p><i>Material de apoio: <a href="https://www.devmedia.com.br/html-a-criando-links-em-html/43494" title="Clique para acessar" target="_blank">www.devmedia.com.br/html-a-criando-links-em-html/43494</a></i></p>
+    <p><a href="#Índice"  style="color: rgb(255, 30, 0)"><strong>Índice</strong></a></p>
+
+    <h2 id="Artigo">Trecho de artigo formatado utilizando tags</h2>
+    <p><center><h3>ANÁLISE DE SISTEMAS AUTOMATIZADOS DE IDENTIFICAÇÃO</h3></center></p>
+    <br>
+    <p><center><strong>MARCELO DOS SANTOS FARIAS</strong></center></p> 
+    <p>Graduando em Tecnologia de Controle e Automação industrial, Bolsista CAPES, IFSP, Câmpus Piracicaba,
+    <br>Nekiol@hotmail.com.Área de conhecimento (Tabela CNPq): Eletrônica Industrial, Sistemas e Controles Eletrônicos - 3.04.05.00-9</p>
+    <p><center>Apresentado no<br>
+        7° Congresso de Iniciação Científica e Tecnológica do IFSP<br>
+        29 de novembro a 02 de dezembro de 2016 - Matão-SP, Brasil</center></p>
+    <p><strong>RESUMO:</strong> Este artigo apresenta o desenvolvimento de software que reproduz o sistema de
+        identificação por código de barras EAN-13, padrão europeu adotado também pelo Brasil, com o
+        principal objetivo de domínio da tecnologia e reprodução no âmbito do IFSP (Instituto Federal de São
+        Paulo). O trabalho desenvolvido e apresentado se insere num contexto mais amplo de estudo e
+        domínio dos diversos sistemas de identificação, como exemplo tem-se: RFID (identificação por rádio
+        frequência), QR Code (código de resposta rápida), entre outros que serão objeto de estudos futuros. A
+        compreensão e reprodução do EAN-13 a primeira etapa desenvolvida no contexto da análise de
+        sistemas automáticos de identificação e este é o enfoque deste artigo</p>
+    <p><i>Material de apoio: <a href="http://mto.ifsp.edu.br/images/CPI/Anais/IC/2015.pdf" title="Clique para acessar" target="_blank">http://mto.ifsp.edu.br/images/CPI/Anais/IC/2015.pdf</a></i></p>
+    <p><a href="#Índice"  style="color: rgb(255, 30, 0)"><strong>Índice</strong></a></p>
+
+
+    <h2 id="referências">Links de referências</h2>
+    <ul>
+        <li><a href="http://dio.me" title="Clique para acessar" target="_blank">http://dio.me</a></li>
+        <li><a href="http://w3c.org" title="Clique para acessar" target="_blank">http://w3c.org</a></li>
+        <li><a href="https://www.youtube.com/watch?v=VVZ27ISF-vw&ab_channel=Refatorando" title="Clique para acessar" target="_blank">www.youtube.com/watch?v=VVZ27ISF-vw&ab_channel=Refatorando</a></li>
+        <li><a href="https://www.youtube.com/watch?v=4dQtz1PpY9A&ab_channel=C%C3%B3digoFonteTV" title="Clique para acessar" target="_blank">www.youtube.com/watch?v=4dQtz1PpY9A&ab_channel=C%C3%B3digoFonteTV</a></li>
+    </ul>
+    <p><a href="#Índice"  style="color: rgb(255, 30, 0)"><strong>Índice</strong></a></p>
+</body>
+</html>
